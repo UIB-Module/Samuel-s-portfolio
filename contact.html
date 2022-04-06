@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Get in Touch</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    font-size: 1.5rem;
+
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/god-adam-sistine-hands-1000.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+</style>
+
+<body>
+  <!-- <header id="top">
+		<span class="header">Forms</span>
+	</header> -->
+
+  <form action="" id="profile">
+    <fieldset>
+      <legend id="get-in-touch">Get in Touch</legend>
+      <label for="name">Full Name</label>
+      <input type="name" name="" id="name" />
+      <br />
+      <label class="label" for="email">Email:</label>
+      <input type="email" name="email" id="email">
+      <br />
+      <label for="tel">Telephone Number</label>
+      <input type="tel" name="" id="tel" required pattern="[0-9]{2}-[0-9]{2}" />
+
+      <br />
+      <label for="comment">Describe yourself</label> <br />
+      <textarea name="" id="comment" cols="28" rows="3"></textarea>
+      <br>
+
+
+
+      <label for="select">Select your country</label>
+      <br />
+      <select name="" id="select">
+        <option value="" disabled selected>select an option</option>
+        <optgroup label="Europe">
+          <option value="Germany">Germany</option>
+          <option value="Japan">Italy</option>
+        </optgroup>
+        <optgroup label="Asia">
+          <option value="Japan">Japan</option>
+        </optgroup>
+        <optgroup label="America">
+          <option value="Japan">USA</option>
+        </optgroup>
+      </select>
+      <br />
+      <input type="submit" value="Save" id="save" />
+    </fieldset>
+  </form>
+
+</body>
+
+</html>

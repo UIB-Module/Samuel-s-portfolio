@@ -1,0 +1,256 @@
+body {
+  width: 100%;
+  font-family: 'Merriweather', serif;
+}
+
+.main-container {
+  width: 100vw;
+  margin: 0 0 0 0;
+  background-color: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* 16px =100% = 1em */
+h1 {
+  font-size: 5.5em;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.middle-container {
+  width: 100vw;
+}
+
+.bottom-cloud {
+  position: absolute;
+  margin-left: 80px;
+}
+
+.img-skills {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/guitar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-container h1 {
+  width: 50%;
+  height: 60px;
+}
+
+#sami {
+  position: relative;
+  left: 20%;
+  right: 10%;
+}
+
+.text {
+  width: 48rem;
+}
+.text h2 {
+  mask-type: 5px;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(35, end), blink-caret 0.5s step-end infinite;
+  border-right: 0.15em solid blue;
+}
+
+.class-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/god-adam-sistine-hands-1000.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-main {
+  /* padding-top: 450px;
+padding-left: 350px; */
+  width: 700px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: blue;
+  }
+}
+
+footer {
+  width: 100vw;
+  background-color: rgb(38, 143, 214);
+  font-size: 8px;
+  padding-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.guiter {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/guitar.jpg);
+  color: aliceblue;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-skills {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  text-align: center;
+  padding-top: 60px;
+
+  /* padding: 50px 500px; */
+}
+.page-skills table {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.skill-row p {
+  padding: 20px;
+  text-align: left;
+}
+
+.footer {
+  padding: 1rem;
+  background: #bbebfc;
+}
+.footer ul {
+  display: flex;
+  font-size: 30px;
+  list-style: none;
+  justify-content: center;
+}
+
+.footer ul li {
+  width: 50px;
+}
+
+/* Media Queries */
+
+@media (min-width: 480px) {
+  body {
+    width: 50%;
+  }
+  /* p{
+   background-color: goldenrod;
+  } */
+}
+
+@media (min-width: 800px) {
+  p {
+    font-size: 1.5em;
+    /* line-height: 1.5; */
+  }
+}
+@media (max-width: 1024px) {
+  p {
+    font-size: 1.5em;
+    /* line-height: 1.5; */
+  }
+}
+/* 
+.form-group{
+
+
+} */
+
+/* ========= */
+
+#profile {
+  width: 400px;
+  height: 400px;
+}
+
+#get-in-touch {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+input {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  /* box-shadow: 10px 5px 15px 1px darkgray; */
+}
+
+fieldset {
+  padding: 30px;
+}
+
+legend {
+  text-align: center;
+  padding: 0 20px;
+}
+
+textarea {
+  font-size: 1rem;
+  color: #333;
+  resize: none;
+  white-space: nowrap;
+}
+
+select {
+  font-size: 1rem;
+}
+
+fieldset {
+  border-radius: 10px;
+  border: none;
+}
+
+#save {
+  font-size: 0.8rem;
+}
